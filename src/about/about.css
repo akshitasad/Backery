@@ -1,0 +1,40 @@
+.about-wrapper {
+    display: flex;
+    /* height: 60vh; */
+    height: 100%;
+    flex-direction: row;
+    width: 80%;
+}
+
+.about-images {
+    width: 50%;
+    position: relative;
+}
+
+.about-content {
+    width: 50%;
+}
+
+.about-img{
+    height: 55%;
+    width: 36%;
+    position: absolute;
+    border-radius: 15px;
+}
+.about-frame{
+    border: 10px solid rgb(211, 155, 12);
+    background-color: #FDF5EB;
+}
+.about-1{
+    left: 10%;
+    z-index: 2;
+}
+.about-2{
+    top: 30%;
+    z-index: 2;
+}
+.about-frame{
+    z-index: 1;
+    left: 32%;
+    top: 14%;
+}

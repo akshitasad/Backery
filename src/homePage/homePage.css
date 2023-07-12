@@ -1,0 +1,31 @@
+.home {
+    height: 100vh;
+    background:'https://themewagon.github.io/baker/img/carousel-1.jpg';
+    position: relative;
+    
+}
+
+.about {
+        width: 100%;
+        height: 74vh !important;
+        background-color: white;
+        padding: 6% 0px 0px;
+}
+
+.product {
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 84vh;
+}
+
+.footer {
+    position: relative;
+}
+
+.banner{
+    height: 100vh;
+    width: 100%;
+}
+

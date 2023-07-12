@@ -1,0 +1,128 @@
+.wrapper {
+    position: fixed;
+    height: 6%;
+    width: 100%;
+    z-index: 5;
+}
+
+.container {
+    background-color: #3b3535;
+    position: relative;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 50px;
+}
+
+.tab-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    position: relative;
+}
+
+.tab {
+    color: yellow;
+}
+
+.selected-tab {
+    color: white;
+}
+
+.header-pill {
+    height: 60%;
+    width: 10%;
+    font-size: 22px;
+    padding-top: 9px;
+    cursor: pointer;
+}
+
+.cart {
+    height: 40px;
+    width: 50px;
+    position: absolute;
+    right: 10%;
+    background-color: yellow;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.icon {
+    height: 46px;
+    width: 46px;
+}
+
+.cart-modal-wrapper {
+    position: absolute;
+    right: 10%;
+    min-height: 76px;
+    width: 30%;
+    background-color: white;
+    top: 114%;
+    border-top: 6px solid yellow;
+    border-bottom: 6px solid yellow;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-height: 200px;
+    height: fit-content;
+    
+}
+
+.cart-counter {
+    position: absolute;
+    background-color: yellow;
+    right: 9%;
+    top: -28%;
+    min-width: 26px;
+}
+
+
+.modal-wrapper {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.list-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px 15%;
+}
+
+.item-wrapper {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    justify-content: space-between;
+}
+
+.checkout-warpper {
+    position: absolute;
+    bottom: 10px;
+    max-height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: end; */
+    align-items: center;    
+}
+
+.empty-cart {}
+.button{
+    background-color: #EAA636;
+    font-size: 20px;
+    font-weight: 600;
+    width: 50%;
+    padding: 8px 8px;
+    border-radius: 16px;
+}
+.total{
+    font-weight: 600;
+    font-size: 18px;
+    height: 20px;
+}
